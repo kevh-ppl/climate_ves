@@ -1,0 +1,25 @@
+<div class="termometro-container">
+  <div class="termometro">
+    <div
+      class="tierra"
+      [style.bottom.%]="(temperatura / 5) * 100"
+      [ngClass]="colorTermometro"
+    >
+      <img src="tierra_trans.png" alt="Tierra" />
+    </div>
+  </div>
+
+  <div class="slider-container">
+    <!-- Slider personalizado (HTML nativo) -->
+    <input
+      type="range"
+      min="0"
+      max="5"
+      step="0.1"
+      [(ngModel)]="temperatura"
+      (input)="actualizarColor()"
+      class="custom-slider"
+    />
+    <p class="temperatura-texto">{{ temperatura.toFixed(1) }}°C sobre niveles preindustriales</p>
+  </div>
+</div>

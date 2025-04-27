@@ -1,0 +1,25 @@
+.seccion-cambio-climatico {
+  max-width: 100vw;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
+  text-align: justify;
+}
+
+.seccion-cambio-climatico h2 {
+  font-size: 2.5rem;
+  color: greenyellow;
+  margin-bottom: 1rem;
+}
+
+.seccion-cambio-climatico p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.frase-destacada {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff5722;
+  margin-top: 2rem;
+}
