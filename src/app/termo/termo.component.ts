@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class TermoComponent {
 
-  temperatura = 1.5;
+  temperatura = 1.2;
   colorTermometro = 'verde';
 
   actualizarColor() {
