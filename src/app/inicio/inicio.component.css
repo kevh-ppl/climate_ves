@@ -48,3 +48,11 @@
   position: relative;
   z-index: 2;
 }
+
+.card-custom {
+  background-color: var(--mat-sys-surface);
+  color: #ffffff;
+  width: 100vw;
+  padding: 0.8rem;
+  border: none;
+}
