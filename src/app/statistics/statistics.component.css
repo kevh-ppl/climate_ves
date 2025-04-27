@@ -1,0 +1,51 @@
+.estadisticas-impactantes {
+  text-align: center;
+  margin: 2rem;
+  color: #ffffff;
+}
+
+.chart-container {
+  margin-bottom: 3rem;
+}
+
+canvas {
+  max-width: 600px;
+  margin: auto;
+}
+
+.chart-card {
+  margin: 2rem;
+}
+
+.chart-card h3 {
+  color: white;
+}
+
+.notas-sobre-datos {
+  color: #ffffff;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: var(--mat-sys-surface);
+  border-radius: 10px;
+}
+
+.notas-sobre-datos h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.notas-sobre-datos ul {
+  color: #ffffff;
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.notas-sobre-datos li {
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+}
+
+.notas-sobre-datos a {
+  color: #ffffff;
+  text-decoration: underline;
+}

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from "../navbar/navbar.component";
 import { QueEsComponent } from "../que-es/que-es.component";
+import { StatisticsComponent } from "../statistics/statistics.component";
 
 @Component({
   selector: 'app-inicio',
-  imports: [NavbarComponent, QueEsComponent],
+  imports: [NavbarComponent, QueEsComponent, StatisticsComponent],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })

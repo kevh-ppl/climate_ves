@@ -1,0 +1,88 @@
+<div class="grid grid-cols-1 gap-8">
+  <!-- Gráfico de Barras -->
+  <div class="chart-card">
+    <h3>Emisiones de CO₂ por Sectores Económicos</h3>
+    <apx-chart
+      [series]="emisionesBarChart.series"
+      [chart]="emisionesBarChart.chart"
+      [colors]="emisionesBarChart.colors"
+      [xaxis]="emisionesBarChart.xaxis"
+    >
+    </apx-chart>
+  </div>
+
+  <!-- Gráfico Radar -->
+  <div class="chart-card">
+    <h3>Países Más Contaminantes vs Más Afectados</h3>
+    <apx-chart
+      [series]="contaminacionRadarChart.series"
+      [chart]="contaminacionRadarChart.chart"
+      [colors]="contaminacionRadarChart.colors"
+      [xaxis]="contaminacionRadarChart.xaxis">
+    </apx-chart>
+  </div>
+
+  <!-- Gráfico de Líneas -->
+  <div class="chart-card">
+    <h3>Crecimiento de la Temperatura Media Global</h3>
+    <apx-chart
+      [series]="temperaturaLineChart.series"
+      [chart]="temperaturaLineChart.chart"
+      [colors]="temperaturaLineChart.colors"
+      [stroke]="temperaturaLineChart.stroke"
+      [xaxis]="temperaturaLineChart.xaxis">
+    </apx-chart>
+  </div>
+
+  <!-- Gráfico de Pie -->
+  <div class="chart-card">
+    <h3>Deuda Ecológica Norte-Sur Global</h3>
+    <apx-chart
+      [series]="deudaPieChart.series"
+      [chart]="deudaPieChart.chart"
+      [colors]="deudaPieChart.colors"
+      [labels]="deudaPieChart.labels">
+    </apx-chart>
+  </div>
+</div>
+<section class="notas-sobre-datos">
+  <h2>Notas sobre los datos</h2>
+
+  <p>Todos los datos utilizados en nuestras visualizaciones provienen de fuentes oficiales y confiables relacionadas con el cambio climático. A continuación, detallamos su origen:</p>
+
+  <ul>
+    <li>
+      <strong>Emisiones de CO₂ por sectores económicos:</strong> Basados en el reporte del
+      <a href="https://www.ipcc.ch/report/ar6/wg3/" target="_blank" rel="noopener noreferrer">
+        Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC), Informe AR6 (2022)
+      </a>.
+    </li>
+    <li>
+      <strong>Países más contaminantes vs. países más afectados:</strong> Emisiones de carbono de
+      <a href="https://ourworldindata.org/co2-emissions" target="_blank" rel="noopener noreferrer">
+        Our World in Data (2023)
+      </a> y vulnerabilidad climática basada en el
+      <a href="https://www.ndgain.org/nd-gain-index/" target="_blank" rel="noopener noreferrer">
+        Índice ND-GAIN
+      </a>.
+    </li>
+    <li>
+      <strong>Crecimiento de la temperatura media global:</strong> Datos históricos proporcionados por la
+      <a href="https://climate.nasa.gov/vital-signs/global-temperature/" target="_blank" rel="noopener noreferrer">
+        NASA
+      </a> y la
+      <a href="https://www.noaa.gov/climate" target="_blank" rel="noopener noreferrer">
+        NOAA
+      </a> hasta el año 2023.
+    </li>
+    <li>
+      <strong>Deuda ecológica entre norte y sur global:</strong> Información de consumo de recursos obtenida del
+      <a href="https://www.footprintnetwork.org/" target="_blank" rel="noopener noreferrer">
+        Global Footprint Network
+      </a>.
+    </li>
+  </ul>
+
+  <p>Esta información se actualiza periódicamente para mantener la veracidad y la actualidad de los datos mostrados.</p>
+</section>
+

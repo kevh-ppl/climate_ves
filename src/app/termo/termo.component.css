@@ -12,7 +12,8 @@
   background: linear-gradient(to top, #ccc, #eee);
   border-radius: 30px;
   margin-bottom: 2rem;
-  overflow: hidden;
+  overflow: visible;
+  ;
 }
 
 .tierra {
