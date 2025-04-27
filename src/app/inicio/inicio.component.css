@@ -56,3 +56,7 @@
   padding: 0.8rem;
   border: none;
 }
+
+.card-text {
+  text-align: justify;
+}
