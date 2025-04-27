@@ -15,6 +15,10 @@
   overflow: hidden;
   transition: transform 0.3s ease;
   /* Transición suave */
+
+  /* DIFUMINADO EN EL BORDE INFERIOR */
+  -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 }
 
 .hero-call:hover {
