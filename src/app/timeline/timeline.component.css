@@ -1,0 +1,49 @@
+.timeline-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.timeline-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  border-left: 3px solid #4caf50;
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 5px;
+}
+
+.timeline-content {
+  color: #d1d5db;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.timeline-content a {
+  color: #4caf50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.timeline-content a:hover {
+  text-decoration: underline;
+}
