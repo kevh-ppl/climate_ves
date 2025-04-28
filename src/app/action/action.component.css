@@ -1,0 +1,39 @@
+.acciones-container {
+  padding: 2rem;
+  background-color: var(--mat-sys-surface);
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.acciones-container h2 {
+  color: greenyellow;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nivel-accion {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.nivel-accion h3 {
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+
+.nivel-accion ul {
+  color: white;
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.nivel-accion li {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.nota {
+  font-style: italic;
+  color: #e53e3e;
+  margin-top: 1rem;
+}
