@@ -1,12 +1,25 @@
-<mat-toolbar color="primary">
-  <span class="logo">Comarca Sustentable</span>
+<mat-toolbar color="primary" class="toolbar">
+  <span class="logo">Comarca sustentable</span>
 
   <span class="spacer"></span>
 
-  <a mat-button routerLink="/">Inicio</a>
-  <a mat-button routerLink="/estadisticas">Estadísticas</a>
-  <a mat-button routerLink="/historia">Historia</a>
-  <a mat-button routerLink="/acciones">Acciones</a>
-  <a mat-button routerLink="/contacto">Contacto</a>
+  <nav class="toolbar-links">
+    <a [routerLink]="['/']" fragment="inicio">Inicio</a>
+    <a [routerLink]="['/']" fragment="que-es">¿Qué es?</a>
+    <a [routerLink]="['/']" fragment="statistics">Estadísticas</a>
+    <a [routerLink]="['/']" fragment="timeline">Timeline</a>
+    <a [routerLink]="['/']" fragment="action">Acción</a>
+  </nav>
+
+  <button mat-icon-button class="mobile-menu" (click)="toggleMenu()" aria-label="Menú móvil">
+    <mat-icon>menu</mat-icon>
+  </button>
 </mat-toolbar>
 
+<!-- Menú desplegable para móvil -->
+<nav *ngIf="menuAbierto" class="mobile-links">
+  <a mat-list-item routerLink="/inicio">Inicio</a>
+  <a mat-list-item routerLink="/estadisticas">Estadísticas</a>
+  <a mat-list-item routerLink="/acciones">¿Qué hacer?</a>
+  <a mat-list-item routerLink="/contacto">Contacto</a>
+</nav>

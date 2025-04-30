@@ -11,3 +11,7 @@ body {
   background-color: var(--mat-sys-surface);
   ;
 }
+
+main {
+  padding-top: 64px;
+}

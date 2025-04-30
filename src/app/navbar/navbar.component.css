@@ -12,3 +12,43 @@ a {
   color: white;
   margin-left: 10px;
 }
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--mat-sys-surface);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar-links {
+  display: flex;
+  gap: 10px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Ocultar links normales en pantallas pequeñas */
+@media (max-width: 768px) {
+  .toolbar-links {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    background: var(--mat-sys-surface);
+    padding: 1rem;
+  }
+}
