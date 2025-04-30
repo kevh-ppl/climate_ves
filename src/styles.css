@@ -15,3 +15,10 @@ body {
 main {
   padding-top: 64px;
 }
+
+.titulo {
+  font-size: 2.5rem;
+  text-align: justify;
+  color: greenyellow;
+  margin-bottom: 1rem;
+}
