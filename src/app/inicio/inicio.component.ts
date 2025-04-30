@@ -4,10 +4,11 @@ import { QueEsComponent } from "../que-es/que-es.component";
 import { StatisticsComponent } from "../statistics/statistics.component";
 import { TimelineComponent } from "../timeline/timeline.component";
 import { ActionComponent } from "../action/action.component";
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-inicio',
-  imports: [NavbarComponent, QueEsComponent, StatisticsComponent, TimelineComponent, ActionComponent],
+  imports: [NavbarComponent, QueEsComponent, StatisticsComponent, TimelineComponent, ActionComponent, FooterComponent],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })
