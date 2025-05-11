@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/extra_proyect',
+  basePath: '/server',
   supportedLocales: {
   "en-US": ""
 },
